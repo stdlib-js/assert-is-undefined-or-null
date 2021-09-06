@@ -109,6 +109,23 @@ bool = isUndefinedOrNull( function foo() {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-null`][@stdlib/assert/is-null]: test if a value is null.
+-   [`@stdlib/assert/is-undefined`][@stdlib/assert/is-undefined]: test if a value is undefined.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -163,6 +180,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-undefined-or-null/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-null]: https://github.com/stdlib-js/assert-is-null
+
+[@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert-is-undefined
+
+<!-- </related-links> -->
 
 </section>
 
