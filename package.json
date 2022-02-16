@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-undefined-or-null",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Test if a value is undefined or null.",
   "license": "Apache-2.0",
   "author": {
