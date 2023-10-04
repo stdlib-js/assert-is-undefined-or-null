@@ -35,38 +35,30 @@ limitations under the License.
 
 > Test if a value is undefined or null.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-undefined-or-null
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isUndefinedOrNull = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-undefined-or-null@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isUndefinedOrNull = require( 'path/to/vendor/umd/assert-is-undefined-or-null/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-undefined-or-null@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isUndefinedOrNull;
-})();
-</script>
+var isUndefinedOrNull = require( '@stdlib/assert-is-undefined-or-null' );
 ```
 
 #### isUndefinedOrNull( value )
@@ -95,13 +87,8 @@ bool = isUndefinedOrNull( null );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-undefined-or-null@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isUndefinedOrNull = require( '@stdlib/assert-is-undefined-or-null' );
 
 var bool;
 var x;
@@ -135,11 +122,6 @@ bool = isUndefinedOrNull( [] );
 
 bool = isUndefinedOrNull( function foo() {} );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -200,8 +182,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-undefined-or-null.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-undefined-or-null
 
-[test-image]: https://github.com/stdlib-js/assert-is-undefined-or-null/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/assert-is-undefined-or-null/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/assert-is-undefined-or-null/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/assert-is-undefined-or-null/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-undefined-or-null/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-undefined-or-null?branch=main
@@ -232,9 +214,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-null]: https://github.com/stdlib-js/assert-is-null/tree/umd
+[@stdlib/assert/is-null]: https://github.com/stdlib-js/assert-is-null
 
-[@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert-is-undefined/tree/umd
+[@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert-is-undefined
 
 <!-- </related-links> -->
 
