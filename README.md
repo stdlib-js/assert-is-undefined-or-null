@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isUndefinedOrNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-undefined-or-null@esm/index.mjs';
+import isUndefinedOrNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-undefined-or-null@v0.2.0-esm/index.mjs';
 ```
 
 #### isUndefinedOrNull( value )
@@ -77,7 +77,7 @@ bool = isUndefinedOrNull( null );
 <body>
 <script type="module">
 
-import isUndefinedOrNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-undefined-or-null@esm/index.mjs';
+import isUndefinedOrNull from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-undefined-or-null@v0.2.0-esm/index.mjs';
 
 var bool;
 var x;
